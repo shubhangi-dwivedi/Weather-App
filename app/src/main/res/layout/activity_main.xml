@@ -22,7 +22,7 @@
         android:visibility="gone">
 
         <ImageView
-            android:id="@+id/idIVBlack"
+            android:id="@+id/idIVBack"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
@@ -134,13 +134,13 @@
             android:text="Today's weather Forecast"
             android:textColor="@color/white"
             android:textStyle="bold"
-            android:layout_above="@id/idRvWeather"/>
+            android:layout_above="@id/idRVWeather"/>
 
         <!--displaying today's weather forecast-->
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/idRvWeather"
+            android:id="@+id/idRVWeather"
             android:layout_alignParentBottom="true"
             android:orientation="horizontal"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
